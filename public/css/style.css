@@ -57,7 +57,7 @@ img{
 }
 /*-----------------HOME-------------------*/
 .bg-landing{
-    min-height: 120vh !important;  
+    min-height: 100vh !important;  
     background: url(/public/assets/bg/home.png); 
     background: url(/public/assets/webp/home.webp);
     background-size: cover
@@ -65,7 +65,7 @@ img{
 .bg-home{
     display: flex; 
     flex-direction: column; 
-    justify-content: space-around; 
+    justify-content: flex-start; 
     background: url(/public/assets/bg/home2-1.png);
     background: url(/public/assets/webp/home2-1.webp);
     min-height: 150vh !important; 
